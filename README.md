@@ -43,7 +43,6 @@ int main() {
 
 What someone needs to build it:
 
-```markdown
 ## Requirements
 - C++20 compiler (GCC, Clang, or MSVC)
 - CMake >= 3.16
