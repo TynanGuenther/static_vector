@@ -36,6 +36,7 @@
 *.exe
 *.out
 *.app
+static_vector
 
 # debug information files
 *.dwo

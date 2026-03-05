@@ -1,0 +1,3 @@
+/home/tg/Projects/C++/embedded-cpp-lib/build/CMakeFiles/static_vector.dir
+/home/tg/Projects/C++/embedded-cpp-lib/build/CMakeFiles/edit_cache.dir
+/home/tg/Projects/C++/embedded-cpp-lib/build/CMakeFiles/rebuild_cache.dir

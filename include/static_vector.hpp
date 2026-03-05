@@ -75,9 +75,12 @@ class StaticVector {
 	}
 
 	void clear() noexcept {
-	    while (size_ > 0) {
-		pop_back();
+	    if constexpr (!std::is_trivially_destructible_v<T>) {
+		for (std::size_t i = 0; i < size_; ++i) {
+		    data_ptr(i)->~T();
+		}
 	    }
+	    size_ = 0;
 	}
     private:
 	alignas(T) unsigned char storage_[sizeof(T) * Capacity];
