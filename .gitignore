@@ -37,6 +37,7 @@
 *.out
 *.app
 static_vector
+build/*
 
 # debug information files
 *.dwo
