@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/static_vector.dir/link.d CMakeFiles/static_vector.dir/src/main.cpp.o -o static_vector
